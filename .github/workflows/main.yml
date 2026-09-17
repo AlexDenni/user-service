@@ -120,7 +120,7 @@ jobs:
       github.event_name == 'push' &&
       github.ref == 'refs/heads/learn'
 
-    runs-on: ubuntu-latest
+    runs-on: test-runner
     timeout-minutes: 15
 
     environment: production
